@@ -12,7 +12,7 @@ btn.addEventListener("click", (e) =>{
     const checkbox = document.getElementById("agreement")
     
     
-    if ( userName===""&& userAge ==="" && userLastName==="" && userCity==""){
+    if ( userName===""&& userAge ==="" && userLastName==="" && userCity===""){
         logError.style.display="block"
      }else if (!document.getElementById("checkbox").checked){
         logError.style.display="block"
